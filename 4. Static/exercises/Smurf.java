@@ -1,8 +1,8 @@
-package exercises;
+// package exercises;
 
 public class Smurf {
 
-	private String name;
+	private static String name;
 
 	public static Smurf createSmurf(String name) {
 		System.out.println("Creating " + name + " Smurf");

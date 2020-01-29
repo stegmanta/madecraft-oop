@@ -1,4 +1,4 @@
-package exercises;
+// package exercises;
 
 /*
  * 1. Create a class called Ocean.
