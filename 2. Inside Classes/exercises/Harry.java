@@ -1,8 +1,9 @@
-package exercises;
+// package exercises;
 
 public class Harry {
 
 	private boolean cloakOn;
+	private String spell;
 
 	Harry() {
 		System.out.println("making Harry Potter...");
@@ -12,7 +13,7 @@ public class Harry {
 		System.out.println("casting spell: " + spell);
 	}
 
-	void makeInvisible(boolean invisible) {
+	 	String makeInvisible(boolean invisible) {
 		this.cloakOn = invisible;
 
 		if (cloakOn)
@@ -27,10 +28,14 @@ public class Harry {
 
 	public static void main(String[] args) {
 		// 1. make harry potter
+		Harry potter = new Harry();
 		// 2. become invisible
+		// potter.makeInvisible();
 		// 3. spy on professor snape
+		potter.spyOnSnape();
 		// 4. become visible again
-		// 5. cast a “stupefy” spell
+		//do spell
+		potter.castSpell("PoopSock");
 	}
 
 }

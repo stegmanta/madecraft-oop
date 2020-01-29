@@ -16,7 +16,6 @@ public class Duck {
 	/* The Constructor: for creating instances */
 	
 	public Duck(String name, int lifeExpectancy, String favoriteFood) {
-		super();
 		this.name = name;
 		this.lifeExpectancy = lifeExpectancy;
 		this.favoriteFood = favoriteFood;
